@@ -8,6 +8,7 @@ import {
   Legend,
   PointElement,
   LineElement,
+  LineController,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 
@@ -19,7 +20,8 @@ ChartJS.register(
   Tooltip,
   Legend,
   PointElement,
-  LineElement
+  LineElement,
+  LineController
 );
 
 export default function AttendanceDaily(props) {
