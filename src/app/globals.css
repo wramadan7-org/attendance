@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input:checked ~ .dot {
+  transform: translateX(140%);
+  background-color: #3b3a3a;
+}
+
+.chart-ticks {
+  text-align: center; /* Center-align text */
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
